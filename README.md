@@ -22,14 +22,18 @@
 
 ```
 /final
-├── dataset
-│   ├── training_image/
-│   ├── validation_image/
-│   ├── no_bg_training_image/
-│   ├── no_bg_validation_image/
-│   └── training_label.json / validation_label.json
-├── process
-│   └── (미션별 코드 및 실험)
+-- README.md
+|-- Taverse.pdf
+|-- code
+|   |-- mission 1.ipynb
+|   |-- mission 1.pdf
+|   |-- mission 2.ipynb
+|   |-- mission 2.pdf
+|   |-- mission 3-2.ipynb
+|   `-- mission 3-2.pdf
+|-- data
+|   |-- 3-2 prediction_results.csv
+|   |-- survey_style_preferences.csv
 ```
 
 - 총 이미지 수: `training: 4070`, `validation: 951`
